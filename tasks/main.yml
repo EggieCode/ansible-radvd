@@ -29,7 +29,7 @@
     owner: 'root'
     group: 'root'
     mode: '0644'
-  with_items: radvd_interfaces
+  with_items: "{{ radvd_interfaces }}"
 
 - name: Assemble /etc/radvd.conf
   assemble:

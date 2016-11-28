@@ -11,7 +11,7 @@
 - name: Reload radvd
   service:
     name: 'radvd'
-    state: 'reloaded'
+    state: 'restarted'
 
 - name: Restart radvd
   service:
